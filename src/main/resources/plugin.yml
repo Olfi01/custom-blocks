@@ -1,7 +1,9 @@
-name: Custom Blocks
+name: CustomBlocks
 version: '${version}'
 main: de.crazypokemondev.mcpaper.customblocks.CustomBlocks
 api-version: 1.19
 load: STARTUP
 authors: [ Olfi01 ]
 description: Adds custom textures for blocks that will only be shown with the corresponding clientside mod
+depend:
+  - ProtocolLib
